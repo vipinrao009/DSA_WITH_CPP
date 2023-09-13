@@ -1,31 +1,30 @@
-//linear search 
+// linear search
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()
 {
-    int arr[]={10,20,40,30,70,50};
-    int size =6;
-    int target=30;
+    int arr[] = {10, 20, 40, 30, 70, 50};
+    int size = 6;
+    int target = 30;
 
-    bool flag = 0; //not fount & 1 -> found
+    bool flag = 0; // not fount & 1 -> found
 
-    for(int i=0; i<size; i++)
+    for (int i = 0; i < size; i++)
     {
-        if(arr[i]==target)
+        if (arr[i] == target)
         {
-            cout<<"found";
+            flag = 1;
             break;
-            flag=1;
         }
     }
-    if(flag==1)
+    if (flag == 1)
     {
-        cout<<"Found";
+        cout << "Found";
     }
     else
     {
-        cout<<"Not found";
+        cout << "Not found";
     }
 }
