@@ -43,7 +43,7 @@ int main()
     int size=8;
 
     // calling function
-    MissingNumber(arr,size);
+    int ans=MissingNumber(arr,size);
 
-    cout<<"The missing number is: "<<MissingNumber;
+    cout<<"The missing number is: "<<ans;
 }

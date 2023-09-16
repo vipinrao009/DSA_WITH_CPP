@@ -8,6 +8,7 @@ int PeakElement(int arr[],int size)
     int s=0;
     int e = size-1;
     int mid = s + (e-s)/2;
+    
 
     while(s<e)
     {
@@ -17,6 +18,7 @@ int PeakElement(int arr[],int size)
             //Aap B wale part par ho 
             //shift to left
             e=mid;
+            
         } 
         else 
         {
@@ -37,9 +39,9 @@ int main()
 {
     int arr[]={10,20,30,90,70,60,50,40};
     int size=8;
-    PeakElement(arr,size);
+    int ans = PeakElement(arr,size);
     
-    cout<<PeakElement;
+    cout<<"Peak element is: "<<ans;
 
    
 
