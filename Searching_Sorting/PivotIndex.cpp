@@ -29,12 +29,12 @@ int findIndex(int arr[],int size)
         //B line par h and answer A line par exist karata h
         else if(arr[s]<arr[mid])
         {
-            e=mid-1;
+           s=mid+1 ;
         }
         //A line par h and answer B line par exists karata h
         else
         {
-            s=mid+1;
+            e=mid-1;
         }
         //update the mid
         mid = s+(e-s)/2;
