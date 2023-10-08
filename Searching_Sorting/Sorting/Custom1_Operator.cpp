@@ -54,3 +54,29 @@ int main()
     return 0;
 
 }
+
+// Output 
+// Enter The Size :5
+// Enter the A,B
+// 1 44
+// Enter the A,B
+// 0 55
+// Enter the A,B
+// 0 22
+// Enter the A,B
+// 0 33
+// Enter the A,B
+// 1 11
+// Here are the value
+// 1 44
+// 0 55
+// 0 22
+// 0 33
+// 1 11
+
+// Sorted by 1st index
+// 0 55
+// 1 44
+// 0 33
+// 0 22
+// 1 11
