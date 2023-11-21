@@ -1,3 +1,7 @@
+/*
+    Que: Middle element of stack
+*/
+
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -37,7 +41,7 @@ int getmiddle(stack<int> &st)
         int position = 0;
         if (size & 1)
         {
-            position = size / 2 + 1;
+            position = (size / 2) + 1;
         }
         else
         {
@@ -63,7 +67,7 @@ int main()
     st.push(44);
     st.push(55);
     st.push(66);
-    st.push(77);
+    // st.push(77);
 
     int mid = getmiddle(st);
     cout<<"Middle element : "<<mid;

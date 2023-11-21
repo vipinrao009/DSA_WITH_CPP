@@ -1,3 +1,7 @@
+/*
+    Que: Insert at bottom of stack
+*/
+
 #include<iostream>
 #include<stack>
 using namespace std;

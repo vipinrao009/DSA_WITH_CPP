@@ -1,5 +1,7 @@
 /*
    note: Stack is recursion or recusion is stack , that expalained below
+
+   Que: Reverse string using stack 
 */
 
 #include<iostream>
@@ -14,11 +16,12 @@ int main()
 
     for(int i=0; i<str.length(); i++)
     {
-        //String se nikalkr char me dalo kyuki stac me char ke through hi store ho skta hai hai
+        //Step 01: push each charactor of string into stack
         char ch = str[i];
         st.push(ch);
     }
 
+    // step 02: pop element from stack
     while(!st.empty())
     {
         cout<<st.top();
