@@ -21,7 +21,7 @@ int main()
         st.push(ch);
     }
 
-    // step 02: pop element from stack
+    // step 02: pop element from stack and print 
     while(!st.empty())
     {
         cout<<st.top();
