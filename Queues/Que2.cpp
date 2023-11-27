@@ -1,5 +1,8 @@
 /*
 Reverse the element by K steps
+
+input -> 10 20 30 40 50 60
+output-> 30 20 10 40 50 60
 */
 
 #include <iostream>
