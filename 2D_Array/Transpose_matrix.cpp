@@ -8,7 +8,7 @@ void TransposeMatrix(int arr[][4],int row,int col)
 {
     for(int i=0; i<row; i++)
     {
-        for(int j=i; i<col; j++)
+        for(int j=i; j<col; j++)
         {
             swap(arr[i][j],arr[j][i]);
         }
